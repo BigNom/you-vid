@@ -1,14 +1,18 @@
 {
   "name": "you-vid",
   "version": "1.0.0",
-  "description": "",
+  "description": "music app",
+  "version": "1.0.0",
+  "engines": {
+    "node": "5.11.0"
+  },
   "main": "index.js",
   "scripts": {
     "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "postinstall": "webpack -p",
     "start": "node server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
-    "test:watch": "npm run test -- --watch"
+    "test:watch": "npm run test -- --watch",
+    "postinstall": "webpack -p"
   },
   "keywords": [],
   "author": "Simon Biddle <simon.biddle@live.com> (http://reactivewebdesigns.com)",
