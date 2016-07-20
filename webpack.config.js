@@ -4,7 +4,7 @@ module.exports = {
   ],
   output: {
     path: __dirname,
-    publicPath: '/',
+    publicPath: '/you-vid/',
     filename: 'bundle.js'
   },
   module: {
